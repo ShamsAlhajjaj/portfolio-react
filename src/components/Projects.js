@@ -1,0 +1,31 @@
+import React from 'react';
+import upArrow from '../assets/up-arrow-white.png';
+import downArrow from '../assets/down-arrow-white.png';
+
+const Projects = () => (
+  <div className="projects secondary-text-color" id="projects">
+    <a href="#skills" className="arrow arrow-up3 arrow-up">
+      <img src={upArrow} alt="up arrow" />
+    </a>
+    <div className="bg-container">
+      <h1 className="section-header">Projects</h1>
+      <div className="bg bg-projects">Projects</div>
+    </div>
+    <div className="projects-container">
+      <div className="card card1">
+        <img src="/assets/Feane-resturant.png" alt="Restaurant Website Replica" />
+        <div className="card-content">
+          <h4 className="bold">Restaurant Website Replica</h4>
+          <h5>Technologies: HTML, CSS</h5>
+          <p>This project involved replicating a restaurant website design using only HTML and CSS...</p>
+        </div>
+        <a href="https://shamsalhajjaj.github.io/Restaurant/" className="button">Show review</a>
+      </div>
+    </div>
+    <a href="#testimonials" className="arrow arrow-down arrow4">
+      <img src={downArrow} alt="down arrow" />
+    </a>
+  </div>
+);
+
+export default Projects;
