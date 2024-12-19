@@ -1,5 +1,6 @@
 import React from 'react';
 import upArrow from '../assets/up-arrow-white.png';
+import alaa from '../assets/alaa.jfif'
 
 const Testimonials = () => (
   <div className="feedbacks main-text-color" id="testimonials">
@@ -18,7 +19,7 @@ const Testimonials = () => (
             Shams is a highly dedicated individual with excellent attention to detail...
           </div>
           <div className="person">
-            <img src="/assets/alaa.jfif" alt="Ala' Mohammad" />
+            <img src={alaa} alt="Ala' Mohammad" />
             <div className="name">Ala' Mohammad</div>
             <div className="major">Full Stack Web Developer | Trainer</div>
           </div>

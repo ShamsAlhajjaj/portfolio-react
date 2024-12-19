@@ -1,10 +1,9 @@
 import React from 'react';
-// import upArrow from '../assets/up-arrow-white.png';
 import upArrow from '../assets/up-arrow-white.png';
 import downArrow from '../assets/down-arrow-white.png';
 
 const About = () => (
-  <div className="about secondary-text-color" id="about">
+  <div className="about secondary-text-color" id="about" style={{minHeight: "100vh"}}>
     <a href="#hero" className="arrow arrow-up1 arrow-up">
       <img src={upArrow} alt="up arrow" />
     </a>

@@ -3,7 +3,7 @@ import upArrow from '../assets/up-arrow-white.png';
 import downArrow from '../assets/down-arrow-white.png';
 
 const Skills = () => (
-  <div className="skills main-text-color" id="skills">
+  <div className="skills main-text-color" id="skills" style={{minHeight: "100vh"}}>
     <a href="#about" className="arrow arrow-up2 arrow-up">
       <img src={upArrow} alt="up arrow" />
     </a>
@@ -25,6 +25,86 @@ const Skills = () => (
       <li>
         <i className="fa-solid fa-language"></i>
         <span className="bold">English</span>
+        <div className="progress-bar">
+          <div className="parent">
+            <div className="child" style={{ width: '75%' }}></div>
+          </div>
+          <div className="percent">75%</div>
+        </div>
+      </li>
+      <li>
+        <i className="fa-solid fa-language"></i>
+        <span className="bold">HTML</span>
+        <div className="progress-bar">
+          <div className="parent">
+            <div className="child" style={{ width: '75%' }}></div>
+          </div>
+          <div className="percent">75%</div>
+        </div>
+      </li>
+      <li>
+        <i className="fa-solid fa-language"></i>
+        <span className="bold">CSS</span>
+        <div className="progress-bar">
+          <div className="parent">
+            <div className="child" style={{ width: '75%' }}></div>
+          </div>
+          <div className="percent">75%</div>
+        </div>
+      </li>
+      <li>
+        <i className="fa-solid fa-language"></i>
+        <span className="bold">JS</span>
+        <div className="progress-bar">
+          <div className="parent">
+            <div className="child" style={{ width: '75%' }}></div>
+          </div>
+          <div className="percent">75%</div>
+        </div>
+      </li>
+      <li>
+        <i className="fa-solid fa-language"></i>
+        <span className="bold">React</span>
+        <div className="progress-bar">
+          <div className="parent">
+            <div className="child" style={{ width: '75%' }}></div>
+          </div>
+          <div className="percent">75%</div>
+        </div>
+      </li>
+      <li>
+        <i className="fa-solid fa-language"></i>
+        <span className="bold">PHP</span>
+        <div className="progress-bar">
+          <div className="parent">
+            <div className="child" style={{ width: '75%' }}></div>
+          </div>
+          <div className="percent">75%</div>
+        </div>
+      </li>
+      <li>
+        <i className="fa-solid fa-language"></i>
+        <span className="bold">Laravel</span>
+        <div className="progress-bar">
+          <div className="parent">
+            <div className="child" style={{ width: '75%' }}></div>
+          </div>
+          <div className="percent">75%</div>
+        </div>
+      </li>
+      <li>
+        <i className="fa-solid fa-language"></i>
+        <span className="bold">MySQL</span>
+        <div className="progress-bar">
+          <div className="parent">
+            <div className="child" style={{ width: '75%' }}></div>
+          </div>
+          <div className="percent">75%</div>
+        </div>
+      </li>
+      <li>
+        <i className="fa-solid fa-language"></i>
+        <span className="bold">Git | Github</span>
         <div className="progress-bar">
           <div className="parent">
             <div className="child" style={{ width: '75%' }}></div>

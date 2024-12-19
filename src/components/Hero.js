@@ -3,7 +3,7 @@ import myPic from '../assets/myPic.png';
 import downArrow from '../assets/down-arrow-white.png';
 
 const Hero = () => (
-  <div className="hero main-text-color" id="hero">
+  <div className="hero main-text-color" id="hero" style={{minHeight: "100vh"}}>
     <div className="img-cont">
       <img src={myPic} alt="Shams Aldeen Alhajjaj" />
     </div>

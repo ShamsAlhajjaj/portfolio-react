@@ -681,3 +681,11 @@ body{
 .last-ul i{
     font-size: 18px;
 }
+
+.nav ul li.active {
+    border-color: var(--secondary-color);
+    color: var(--secondary-color);
+  }  
+.nav ul li.active a{
+    color: var(--secondary-color);
+  }  
