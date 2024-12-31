@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio-react/static/css/main.131586cf.css",
+    "main.js": "/portfolio-react/static/js/main.635bf098.js",
+    "static/media/Feane-resturant.png": "/portfolio-react/static/media/Feane-resturant.53b58115ce49210f2cb7.png",
+    "static/media/portfolio.png": "/portfolio-react/static/media/portfolio.f12245fd08556e3ebb8a.png",
+    "static/media/myPic.png": "/portfolio-react/static/media/myPic.d0b52da3f9058419ebb6.png",
+    "static/media/alaa.jfif": "/portfolio-react/static/media/alaa.f85298614a082d789255.jfif",
+    "index.html": "/portfolio-react/index.html",
+    "main.131586cf.css.map": "/portfolio-react/static/css/main.131586cf.css.map",
+    "main.635bf098.js.map": "/portfolio-react/static/js/main.635bf098.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.131586cf.css",
+    "static/js/main.635bf098.js"
+  ]
+}
