@@ -2,7 +2,7 @@ import React from "react";
 import useActiveSection from "../hooks/useActiveSection";
 
 const Navbar = () => {
-  const sectionIds = ["hero", "about", "skills", "projects", "testimonials", "footer"];
+  const sectionIds = ["hero", "about", "skills", "projects", "testimonials"];
   const activeSection = useActiveSection(sectionIds);
 
   return (
